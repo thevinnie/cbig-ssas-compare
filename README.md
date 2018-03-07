@@ -1,5 +1,5 @@
-# Charlotte BI Group
-## SSAS Comparison presentation from March 6, 2018
+# SSAS Feature Comparison
+## Presentation and code from March 6, 2018 to the Charlotte BI Group
 
 This repository contains the presentation and supporting code from the presentation given to the CBIG user group meeting.
 
