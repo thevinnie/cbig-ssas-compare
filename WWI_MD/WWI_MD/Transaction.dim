@@ -1,0 +1,230 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="85e3a25d-434f-4f88-ba22-9526c00f8efe" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Transaction</ID>
+  <Name>Transaction</Name>
+  <CreatedTimestamp>0001-01-01T05:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T05:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-2400" scrolltop="-5331" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="9895" y="15663" backcolor="16119285" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Transaction" left="20" top="-2249" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="5054" height="10477" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000c0000be130000ed280000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="Fact_Transaction" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-2400</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-5331</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>-2249</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T05:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="8be1b8cc-0fe6-49ca-b2bd-ecabe46f21de">
+    <DataSourceViewID>Wide World Importers DW</DataSourceViewID>
+  </Source>
+  <ErrorConfiguration dwd:design-time-name="8869f634-e003-42bd-bbf3-eeee752987f5">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="e78ca8a1-7f82-4bc0-8d93-f09ef338eb24">
+      <ID>Transaction Key</ID>
+      <Name>Transaction Key</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="ad8f91d6-1f6b-4aa0-b88b-01f72e1eae9a">
+          <DataType>BigInt</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="abfa9865-c9d5-42f1-bd4d-a248f779353f">
+            <TableID>Fact_Transaction</TableID>
+            <ColumnID>Transaction_x0020_Key</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="f46f1b9f-02f4-4253-8345-1af9f307867c">
+          <DataType>Date</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="a6a7032f-7776-4088-8a5f-27ff0632889b">
+            <TableID>Fact_Transaction</TableID>
+            <ColumnID>Date_x0020_Key</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="96d4d10a-7167-431a-a05d-e814a0d1447e">
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="7568c26d-e975-4c67-8bdd-12db7e9c20a0">
+          <TableID>Fact_Transaction</TableID>
+          <ColumnID>Transaction_x0020_Key</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="7fa64f6d-8d8c-436a-be5f-8790397dffe9">
+          <AttributeID>Supplier Invoice Number</AttributeID>
+          <Name>Supplier Invoice Number</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="7909fd2f-1e44-45d7-babd-8a06c3e65972">
+          <AttributeID>WWI Customer Transaction ID</AttributeID>
+          <Name>WWI Customer Transaction ID</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="5339f708-537b-48ab-befa-361359a0ae04">
+          <AttributeID>WWI Supplier Transaction ID</AttributeID>
+          <Name>WWI Supplier Transaction ID</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="08ad583e-abc0-4a36-b30e-33234d33d024">
+          <AttributeID>WWI Invoice ID</AttributeID>
+          <Name>WWI Invoice ID</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="b287a044-21b6-4f58-a24c-54f695bf4bb2">
+          <AttributeID>WWI Purchase Order ID</AttributeID>
+          <Name>WWI Purchase Order ID</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="4d29f3e4-cc2b-425e-87ca-51888011995f">
+          <AttributeID>Is Finalized</AttributeID>
+          <Name>Is Finalized</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="ff5edee5-e486-455e-88b5-ffbfef7c8ebc">
+      <ID>Supplier Invoice Number</ID>
+      <Name>Supplier Invoice Number</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="e4d3c6b2-59bc-45d7-a83a-a05e22478955">
+          <DataType>WChar</DataType>
+          <DataSize>20</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="63ce8be9-595f-40d5-b2d1-6f731f262f92">
+            <TableID>Fact_Transaction</TableID>
+            <ColumnID>Supplier_x0020_Invoice_x0020_Number</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="67426508-b1dd-4c7a-aa26-5d097848975d">
+      <ID>WWI Customer Transaction ID</ID>
+      <Name>WWI Customer Transaction ID</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="945fd15b-6be1-4afe-8b12-178f1d7239e6">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="9fb9d438-edfe-4cd8-a60e-0ddd9b83642e">
+            <TableID>Fact_Transaction</TableID>
+            <ColumnID>WWI_x0020_Customer_x0020_Transaction_x0020_ID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="9a476b62-1e0f-4958-a0ce-77a990e17f15">
+      <ID>WWI Supplier Transaction ID</ID>
+      <Name>WWI Supplier Transaction ID</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="339c810e-5570-45e9-9167-e29b317ebc48">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="96580722-179b-49f3-94d1-2998948a033e">
+            <TableID>Fact_Transaction</TableID>
+            <ColumnID>WWI_x0020_Supplier_x0020_Transaction_x0020_ID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="f15c578c-b1ad-4fd2-907a-4e23c5354fe5">
+      <ID>WWI Invoice ID</ID>
+      <Name>WWI Invoice ID</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="54ccaba0-ab76-4f12-946a-2298e0372fa0">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="a74c8abe-c8a5-48f1-bb67-55080899cd57">
+            <TableID>Fact_Transaction</TableID>
+            <ColumnID>WWI_x0020_Invoice_x0020_ID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="9e80545c-e784-40fa-9321-bfe2e65f3f07">
+      <ID>WWI Purchase Order ID</ID>
+      <Name>WWI Purchase Order ID</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="1709cd84-74f0-468c-97b9-f542e807e20d">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="ebb4d55d-a462-4339-98ca-056bba207057">
+            <TableID>Fact_Transaction</TableID>
+            <ColumnID>WWI_x0020_Purchase_x0020_Order_x0020_ID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="0d732c38-7693-4bcf-84b4-bd88acac822f">
+      <ID>Is Finalized</ID>
+      <Name>Is Finalized</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="e505e2ef-8b7f-4175-9ea7-8b45ed3a92d5">
+          <DataType>Boolean</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="35372140-9f29-487d-ac24-1deeadd543db">
+            <TableID>Fact_Transaction</TableID>
+            <ColumnID>Is_x0020_Finalized</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>
